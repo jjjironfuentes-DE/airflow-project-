@@ -1,0 +1,32 @@
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials/
+secrets/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Airflow runtime logs
+logs/
+
+# macOS
+.DS_Store
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Local Airflow configuration
+config/airflow.cfg
+
+# Local reports and generated outputs
+data/reports/
