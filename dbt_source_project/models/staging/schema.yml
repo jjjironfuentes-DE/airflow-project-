@@ -1,0 +1,21 @@
+version: 2
+
+models:
+  - name: stg_sales
+    description: "Sales data cleaned and prepared for analytics."
+    columns:
+      - name: order_id
+        description: "Unique identifier of each order."
+        tests:
+          - unique
+          - not_null
+
+      - name: customer
+        description: "Customer name normalized to lowercase."
+        tests:
+          - not_null
+
+      - name: quantity
+        description: "Number of units purchased."
+        tests:
+          - not_null

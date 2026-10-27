@@ -1,0 +1,12 @@
+name: sales_dbt
+version: "1.0.0"
+config-version: 2
+
+profile: sales_dbt
+
+model-paths: ["models"]
+test-paths: ["tests"]
+
+models:
+  sales_dbt:
+    +materialized: table

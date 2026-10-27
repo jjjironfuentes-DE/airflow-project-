@@ -30,3 +30,18 @@ config/airflow.cfg
 
 # Local reports and generated outputs
 data/reports/
+
+# dbt generated artifacts
+**/target/
+**/dbt_packages/
+**/logs/
+
+# Local DuckDB databases and backups
+*.duckdb
+*.duckdb.*
+
+# Local dbt profiles
+**/profiles/profiles.yml
+
+# Runtime file for the FileSensor exercise
+data/incoming_data/customer_data.csv

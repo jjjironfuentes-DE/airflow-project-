@@ -1,0 +1,6 @@
+order_id,customer,city,product,quantity,price
+1,Alice,London,Laptop,1,1200
+2,Bob,Paris,Mouse,2,25
+3,Alice,London,Keyboard,1,80
+4,John,Berlin,Monitor,1,350
+5,Bob,Paris,Mouse,1,25

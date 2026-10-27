@@ -1,0 +1,12 @@
+name: sales_source_project
+version: "1.0.0"
+config-version: 2
+
+profile: sales_source_project
+
+model-paths: ["models"]
+test-paths: ["tests"]
+
+models:
+  sales_source_project:
+    +materialized: table

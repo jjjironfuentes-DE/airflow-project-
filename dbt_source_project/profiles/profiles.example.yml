@@ -1,0 +1,8 @@
+sales_source_project:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: /opt/airflow/data/airflow_dbt_source_lab/warehouse.duckdb
+      schema: main
+      threads: 4
